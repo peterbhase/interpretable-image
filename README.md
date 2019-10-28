@@ -47,7 +47,7 @@ cd HPnet
 python main.py 
 ```
 
-To view and interpret model prototypes, which can be done without training a model, using our provided images), use ```view_protos.ipynb``` and ```nearest_neighbors.ipynb```. 
+To view and interpret model prototypes, which can be done without training a model using our provided images, use ```view_protos.ipynb``` and ```nearest_neighbors.ipynb```. 
 
 For training and evaluate novel class detectors, see ```novel_class_detection.ipynb```
 
