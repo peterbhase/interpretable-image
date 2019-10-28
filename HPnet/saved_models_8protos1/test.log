@@ -1,0 +1,107 @@
+training set size: 18750
+valid set size: 750
+test set size: 750
+batch size: 50
+valid
+	time: 	14.81
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	12.64
+	coarse acc: 	94.53%
+	fine acc: 	85.07%
+
+
+	Accuracy of animal : 99 %
+	Accuracy of everyday_object : 89 %
+	Accuracy of scuba_diver : 98 %
+	Accuracy of vehicle : 95 %
+	Accuracy of weapon : 86 %
+
+
+	Accuracy of African_elephant : 100 %
+	Accuracy of ambulance : 94 %
+	Accuracy of assault_rifle : 56 %
+	Accuracy of capuchin : 80 %
+	Accuracy of giant_panda : 100 %
+	Accuracy of gibbon : 88 %
+	Accuracy of laptop : 80 %
+	Accuracy of  lion : 90 %
+	Accuracy of orangutan : 96 %
+	Accuracy of pickup : 86 %
+	Accuracy of rifle : 56 %
+	Accuracy of sandal : 84 %
+	Accuracy of scuba_diver : 98 %
+	Accuracy of sports_car : 92 %
+	Accuracy of wine_bottle : 76 %
+test
+	time: 	11.96
+	cross ent: 	0.57
+	noise cross ent: 	0.00
+	cluster: 	0.82
+	separation: 	28.20
+	l1: 	12.64
+	coarse acc: 	93.60%
+	fine acc: 	81.87%
+
+
+	Accuracy of animal : 97 %
+	Accuracy of everyday_object : 87 %
+	Accuracy of scuba_diver : 96 %
+	Accuracy of vehicle : 98 %
+	Accuracy of weapon : 83 %
+
+
+	Accuracy of African_elephant : 94 %
+	Accuracy of ambulance : 98 %
+	Accuracy of assault_rifle : 48 %
+	Accuracy of capuchin : 84 %
+	Accuracy of giant_panda : 92 %
+	Accuracy of gibbon : 80 %
+	Accuracy of laptop : 80 %
+	Accuracy of  lion : 90 %
+	Accuracy of orangutan : 94 %
+	Accuracy of pickup : 84 %
+	Accuracy of rifle : 54 %
+	Accuracy of sandal : 66 %
+	Accuracy of scuba_diver : 96 %
+	Accuracy of sports_car : 90 %
+	Accuracy of wine_bottle : 78 %
+OOD
+	time: 	325.20
+	cross ent: 	1.32
+	noise cross ent: 	0.00
+	cluster: 	0.60
+	separation: 	31.13
+	coarse acc: 	62.63%
+
+
+	Accuracy of animal : 66 %
+	Accuracy of everyday_object : 72 %
+	Accuracy of vehicle : 54 %
+	Accuracy of weapon : 53 %
+
+
+	Accuracy of   bow : 43 %
+	Accuracy of   cab : 86 %
+	Accuracy of chimpanzee : 91 %
+	Accuracy of forklift : 61 %
+	Accuracy of golf_ball : 60 %
+	Accuracy of gorilla : 97 %
+	Accuracy of king_penguin : 23 %
+	Accuracy of macaque : 95 %
+	Accuracy of mountain_bike :  9 %
+	Accuracy of revolver : 63 %
+	Accuracy of table_lamp : 76 %
+	Accuracy of tractor : 61 %
+	Accuracy of tree_frog : 44 %
+	Accuracy of wallet : 78 %
+	Accuracy of zebra : 46 %
+
+valid acc: 85.07
+test acc: 81.87
+test coarse acc: 93.60
+OOD (coarse) acc: 62.63
+train KNN: 0.816
+test KNN: 0.789

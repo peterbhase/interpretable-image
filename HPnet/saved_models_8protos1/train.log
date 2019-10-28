@@ -1,0 +1,1197 @@
+training set size: 18750
+push set size: 18750
+valid set size: 750
+effective batch size: 25
+latent space dim: 32
+number of prototypes: 168
+cluster cost coeff: 0.001
+sep cost coeff: 0.060
+start training
+valid
+	time: 	11.18
+	cross ent: 	2.94
+	noise cross ent: 	0.00
+	cluster: 	1.88
+	separation: 	30.28
+	l1: 	195.39
+	coarse acc: 	9.07%
+	fine acc: 	6.67%
+epoch: 	0
+coarse warm
+train
+	time: 	208.38
+	cross ent: 	0.38
+	noise cross ent: 	184.86
+	cluster: 	0.04
+	separation: 	4.50
+	l1: 	80.63
+	coarse acc: 	86.74%
+	fine acc: 	30.86%
+optimize through protos
+epoch: 	0
+through protos
+train
+	time: 	594.73
+	cross ent: 	1.11
+	noise cross ent: 	184.81
+	cluster: 	1.29
+	separation: 	30.29
+	l1: 	195.39
+	coarse acc: 	88.52%
+	fine acc: 	60.06%
+epoch: 	1
+through protos
+train
+	time: 	590.05
+	cross ent: 	0.77
+	noise cross ent: 	184.79
+	cluster: 	1.12
+	separation: 	30.22
+	l1: 	195.39
+	coarse acc: 	89.57%
+	fine acc: 	74.12%
+epoch: 	2
+through protos
+train
+	time: 	592.98
+	cross ent: 	0.72
+	noise cross ent: 	184.78
+	cluster: 	1.83
+	separation: 	29.45
+	l1: 	195.39
+	coarse acc: 	90.28%
+	fine acc: 	75.54%
+epoch: 	3
+through protos
+train
+	time: 	591.51
+	cross ent: 	0.69
+	noise cross ent: 	184.78
+	cluster: 	4.23
+	separation: 	26.98
+	l1: 	195.39
+	coarse acc: 	90.63%
+	fine acc: 	76.57%
+epoch: 	4
+through protos
+train
+	time: 	592.01
+	cross ent: 	0.68
+	noise cross ent: 	184.77
+	cluster: 	4.93
+	separation: 	26.23
+	l1: 	195.39
+	coarse acc: 	90.94%
+	fine acc: 	77.29%
+	push
+	Executing push ...
+	push time: 	242.4336712360382
+valid
+	time: 	10.14
+	cross ent: 	0.97
+	noise cross ent: 	0.00
+	cluster: 	0.22
+	separation: 	31.34
+	l1: 	195.39
+	coarse acc: 	85.07%
+	fine acc: 	74.13%
+	new best: 74.13       old best: 0.00
+last layers
+train
+	time: 	227.23
+	cross ent: 	0.69
+	noise cross ent: 	185.12
+	cluster: 	0.31
+	separation: 	31.29
+	l1: 	167.43
+	coarse acc: 	90.89%
+	fine acc: 	77.85%
+valid
+	time: 	10.24
+	cross ent: 	0.59
+	noise cross ent: 	0.00
+	cluster: 	0.22
+	separation: 	31.34
+	l1: 	144.34
+	coarse acc: 	93.20%
+	fine acc: 	82.27%
+	new best: 82.27       old best: 74.13
+optimize joint
+epoch: 	0
+joint
+train
+	time: 	599.98
+	cross ent: 	0.66
+	noise cross ent: 	184.80
+	cluster: 	0.46
+	separation: 	31.01
+	l1: 	131.05
+	coarse acc: 	91.11%
+	fine acc: 	77.92%
+epoch: 	1
+joint
+train
+	time: 	607.62
+	cross ent: 	0.64
+	noise cross ent: 	184.79
+	cluster: 	0.57
+	separation: 	30.71
+	l1: 	106.07
+	coarse acc: 	91.17%
+	fine acc: 	78.34%
+epoch: 	2
+joint
+train
+	time: 	606.83
+	cross ent: 	0.62
+	noise cross ent: 	184.79
+	cluster: 	0.65
+	separation: 	30.50
+	l1: 	83.87
+	coarse acc: 	91.57%
+	fine acc: 	79.40%
+epoch: 	3
+joint
+train
+	time: 	602.94
+	cross ent: 	0.61
+	noise cross ent: 	184.79
+	cluster: 	0.81
+	separation: 	30.20
+	l1: 	64.85
+	coarse acc: 	91.69%
+	fine acc: 	79.53%
+epoch: 	4
+joint
+train
+	time: 	599.46
+	cross ent: 	0.62
+	noise cross ent: 	184.78
+	cluster: 	1.18
+	separation: 	29.66
+	l1: 	50.05
+	coarse acc: 	91.86%
+	fine acc: 	79.59%
+epoch: 	5
+joint
+train
+	time: 	600.32
+	cross ent: 	0.60
+	noise cross ent: 	184.78
+	cluster: 	2.71
+	separation: 	27.89
+	l1: 	39.60
+	coarse acc: 	91.98%
+	fine acc: 	80.27%
+	push
+	Executing push ...
+	push time: 	240.97998309135437
+valid
+	time: 	10.21
+	cross ent: 	0.55
+	noise cross ent: 	0.00
+	cluster: 	0.34
+	separation: 	30.71
+	l1: 	35.54
+	coarse acc: 	93.20%
+	fine acc: 	80.67%
+last layers
+train
+	time: 	226.53
+	cross ent: 	0.58
+	noise cross ent: 	184.85
+	cluster: 	0.59
+	separation: 	30.48
+	l1: 	33.20
+	coarse acc: 	92.37%
+	fine acc: 	80.66%
+valid
+	time: 	10.26
+	cross ent: 	0.53
+	noise cross ent: 	0.00
+	cluster: 	0.34
+	separation: 	30.71
+	l1: 	30.58
+	coarse acc: 	93.47%
+	fine acc: 	81.60%
+last layers
+train
+	time: 	227.13
+	cross ent: 	0.56
+	noise cross ent: 	184.83
+	cluster: 	0.57
+	separation: 	30.49
+	l1: 	28.16
+	coarse acc: 	92.67%
+	fine acc: 	81.29%
+valid
+	time: 	10.10
+	cross ent: 	0.52
+	noise cross ent: 	0.00
+	cluster: 	0.34
+	separation: 	30.71
+	l1: 	27.59
+	coarse acc: 	93.47%
+	fine acc: 	82.00%
+epoch: 	6
+joint
+train
+	time: 	604.17
+	cross ent: 	0.62
+	noise cross ent: 	184.79
+	cluster: 	1.01
+	separation: 	29.83
+	l1: 	23.65
+	coarse acc: 	91.92%
+	fine acc: 	79.66%
+epoch: 	7
+joint
+train
+	time: 	599.87
+	cross ent: 	0.60
+	noise cross ent: 	184.78
+	cluster: 	2.46
+	separation: 	28.07
+	l1: 	19.75
+	coarse acc: 	92.43%
+	fine acc: 	79.91%
+epoch: 	8
+joint
+train
+	time: 	607.00
+	cross ent: 	0.60
+	noise cross ent: 	184.78
+	cluster: 	4.89
+	separation: 	25.60
+	l1: 	18.07
+	coarse acc: 	92.10%
+	fine acc: 	79.29%
+epoch: 	9
+joint
+train
+	time: 	609.95
+	cross ent: 	0.59
+	noise cross ent: 	184.78
+	cluster: 	5.01
+	separation: 	25.32
+	l1: 	17.00
+	coarse acc: 	92.38%
+	fine acc: 	79.85%
+epoch: 	10
+joint
+train
+	time: 	614.89
+	cross ent: 	0.59
+	noise cross ent: 	184.78
+	cluster: 	5.13
+	separation: 	24.98
+	l1: 	16.15
+	coarse acc: 	92.35%
+	fine acc: 	80.06%
+	push
+	Executing push ...
+	push time: 	243.79474878311157
+valid
+	time: 	9.97
+	cross ent: 	0.58
+	noise cross ent: 	0.00
+	cluster: 	0.41
+	separation: 	30.09
+	l1: 	16.25
+	coarse acc: 	92.67%
+	fine acc: 	80.53%
+last layers
+train
+	time: 	225.55
+	cross ent: 	0.56
+	noise cross ent: 	184.83
+	cluster: 	0.69
+	separation: 	29.74
+	l1: 	17.24
+	coarse acc: 	92.71%
+	fine acc: 	81.20%
+valid
+	time: 	9.95
+	cross ent: 	0.55
+	noise cross ent: 	0.00
+	cluster: 	0.41
+	separation: 	30.09
+	l1: 	17.83
+	coarse acc: 	92.40%
+	fine acc: 	81.20%
+last layers
+train
+	time: 	235.12
+	cross ent: 	0.55
+	noise cross ent: 	184.81
+	cluster: 	0.70
+	separation: 	29.73
+	l1: 	17.59
+	coarse acc: 	92.72%
+	fine acc: 	81.39%
+valid
+	time: 	10.33
+	cross ent: 	0.54
+	noise cross ent: 	0.00
+	cluster: 	0.41
+	separation: 	30.09
+	l1: 	17.61
+	coarse acc: 	92.80%
+	fine acc: 	81.73%
+epoch: 	11
+joint
+train
+	time: 	602.13
+	cross ent: 	0.58
+	noise cross ent: 	184.78
+	cluster: 	1.66
+	separation: 	28.37
+	l1: 	15.88
+	coarse acc: 	92.43%
+	fine acc: 	80.69%
+epoch: 	12
+joint
+train
+	time: 	601.22
+	cross ent: 	0.59
+	noise cross ent: 	184.78
+	cluster: 	4.87
+	separation: 	24.75
+	l1: 	14.60
+	coarse acc: 	92.41%
+	fine acc: 	80.30%
+epoch: 	13
+joint
+train
+	time: 	599.00
+	cross ent: 	0.57
+	noise cross ent: 	184.78
+	cluster: 	5.24
+	separation: 	24.11
+	l1: 	14.55
+	coarse acc: 	92.69%
+	fine acc: 	80.77%
+epoch: 	14
+joint
+train
+	time: 	596.27
+	cross ent: 	0.58
+	noise cross ent: 	184.78
+	cluster: 	5.57
+	separation: 	23.31
+	l1: 	14.49
+	coarse acc: 	92.53%
+	fine acc: 	80.23%
+epoch: 	15
+joint
+train
+	time: 	598.21
+	cross ent: 	0.58
+	noise cross ent: 	184.78
+	cluster: 	5.75
+	separation: 	22.60
+	l1: 	14.98
+	coarse acc: 	92.76%
+	fine acc: 	80.31%
+	push
+	Executing push ...
+	push time: 	241.46739220619202
+valid
+	time: 	10.37
+	cross ent: 	0.60
+	noise cross ent: 	0.00
+	cluster: 	0.56
+	separation: 	29.06
+	l1: 	15.07
+	coarse acc: 	91.07%
+	fine acc: 	81.20%
+last layers
+train
+	time: 	227.24
+	cross ent: 	0.56
+	noise cross ent: 	184.83
+	cluster: 	1.07
+	separation: 	28.30
+	l1: 	17.64
+	coarse acc: 	92.98%
+	fine acc: 	81.36%
+valid
+	time: 	10.15
+	cross ent: 	0.54
+	noise cross ent: 	0.00
+	cluster: 	0.56
+	separation: 	29.06
+	l1: 	17.36
+	coarse acc: 	92.67%
+	fine acc: 	82.53%
+	new best: 82.53       old best: 82.27
+last layers
+train
+	time: 	226.81
+	cross ent: 	0.55
+	noise cross ent: 	184.79
+	cluster: 	1.07
+	separation: 	28.31
+	l1: 	17.37
+	coarse acc: 	93.32%
+	fine acc: 	81.42%
+valid
+	time: 	10.22
+	cross ent: 	0.53
+	noise cross ent: 	0.00
+	cluster: 	0.56
+	separation: 	29.06
+	l1: 	17.72
+	coarse acc: 	92.80%
+	fine acc: 	82.93%
+	new best: 82.93       old best: 82.53
+epoch: 	16
+joint
+train
+	time: 	600.13
+	cross ent: 	0.57
+	noise cross ent: 	184.79
+	cluster: 	2.89
+	separation: 	25.66
+	l1: 	15.24
+	coarse acc: 	92.77%
+	fine acc: 	81.01%
+epoch: 	17
+joint
+train
+	time: 	600.04
+	cross ent: 	0.57
+	noise cross ent: 	184.78
+	cluster: 	5.87
+	separation: 	21.85
+	l1: 	14.04
+	coarse acc: 	92.79%
+	fine acc: 	80.99%
+epoch: 	18
+joint
+train
+	time: 	600.63
+	cross ent: 	0.58
+	noise cross ent: 	184.78
+	cluster: 	6.25
+	separation: 	20.87
+	l1: 	14.63
+	coarse acc: 	92.57%
+	fine acc: 	80.68%
+epoch: 	19
+joint
+train
+	time: 	601.21
+	cross ent: 	0.57
+	noise cross ent: 	184.78
+	cluster: 	6.62
+	separation: 	19.87
+	l1: 	14.52
+	coarse acc: 	93.18%
+	fine acc: 	81.13%
+lowered lrs by factor of 10
+epoch: 	20
+joint
+train
+	time: 	599.38
+	cross ent: 	0.53
+	noise cross ent: 	184.76
+	cluster: 	6.67
+	separation: 	19.35
+	l1: 	13.08
+	coarse acc: 	93.86%
+	fine acc: 	81.73%
+	push
+	Executing push ...
+	push time: 	238.78614926338196
+valid
+	time: 	10.35
+	cross ent: 	0.67
+	noise cross ent: 	0.00
+	cluster: 	0.63
+	separation: 	28.27
+	l1: 	12.59
+	coarse acc: 	92.93%
+	fine acc: 	83.07%
+	new best: 83.07       old best: 82.93
+last layers
+train
+	time: 	227.29
+	cross ent: 	0.56
+	noise cross ent: 	184.83
+	cluster: 	1.23
+	separation: 	27.10
+	l1: 	18.82
+	coarse acc: 	93.85%
+	fine acc: 	82.75%
+valid
+	time: 	10.20
+	cross ent: 	0.62
+	noise cross ent: 	0.00
+	cluster: 	0.63
+	separation: 	28.27
+	l1: 	19.82
+	coarse acc: 	92.80%
+	fine acc: 	82.27%
+last layers
+train
+	time: 	230.78
+	cross ent: 	0.55
+	noise cross ent: 	184.80
+	cluster: 	1.24
+	separation: 	27.09
+	l1: 	19.56
+	coarse acc: 	93.94%
+	fine acc: 	82.73%
+valid
+	time: 	10.05
+	cross ent: 	0.61
+	noise cross ent: 	0.00
+	cluster: 	0.63
+	separation: 	28.27
+	l1: 	19.62
+	coarse acc: 	93.07%
+	fine acc: 	82.93%
+epoch: 	21
+joint
+train
+	time: 	602.55
+	cross ent: 	0.53
+	noise cross ent: 	184.77
+	cluster: 	1.68
+	separation: 	26.25
+	l1: 	18.18
+	coarse acc: 	93.78%
+	fine acc: 	82.66%
+epoch: 	22
+joint
+train
+	time: 	590.98
+	cross ent: 	0.50
+	noise cross ent: 	184.76
+	cluster: 	1.89
+	separation: 	25.73
+	l1: 	16.55
+	coarse acc: 	94.17%
+	fine acc: 	83.05%
+epoch: 	23
+joint
+train
+	time: 	592.42
+	cross ent: 	0.50
+	noise cross ent: 	184.76
+	cluster: 	2.05
+	separation: 	25.35
+	l1: 	15.69
+	coarse acc: 	93.86%
+	fine acc: 	83.01%
+epoch: 	24
+joint
+train
+	time: 	592.59
+	cross ent: 	0.48
+	noise cross ent: 	184.76
+	cluster: 	2.17
+	separation: 	24.98
+	l1: 	14.92
+	coarse acc: 	94.26%
+	fine acc: 	83.81%
+epoch: 	25
+joint
+train
+	time: 	594.54
+	cross ent: 	0.49
+	noise cross ent: 	184.76
+	cluster: 	2.43
+	separation: 	24.51
+	l1: 	14.12
+	coarse acc: 	94.32%
+	fine acc: 	83.88%
+	push
+	Executing push ...
+	push time: 	244.25673294067383
+valid
+	time: 	10.16
+	cross ent: 	0.51
+	noise cross ent: 	0.00
+	cluster: 	0.71
+	separation: 	28.12
+	l1: 	13.78
+	coarse acc: 	94.00%
+	fine acc: 	84.40%
+	new best: 84.40       old best: 83.07
+last layers
+train
+	time: 	222.94
+	cross ent: 	0.48
+	noise cross ent: 	184.79
+	cluster: 	1.36
+	separation: 	26.80
+	l1: 	14.98
+	coarse acc: 	94.26%
+	fine acc: 	84.09%
+valid
+	time: 	9.80
+	cross ent: 	0.50
+	noise cross ent: 	0.00
+	cluster: 	0.71
+	separation: 	28.12
+	l1: 	14.93
+	coarse acc: 	94.00%
+	fine acc: 	84.13%
+last layers
+train
+	time: 	225.32
+	cross ent: 	0.49
+	noise cross ent: 	184.78
+	cluster: 	1.37
+	separation: 	26.81
+	l1: 	15.12
+	coarse acc: 	94.27%
+	fine acc: 	83.87%
+valid
+	time: 	9.82
+	cross ent: 	0.51
+	noise cross ent: 	0.00
+	cluster: 	0.71
+	separation: 	28.12
+	l1: 	14.92
+	coarse acc: 	94.00%
+	fine acc: 	84.67%
+	new best: 84.67       old best: 84.40
+epoch: 	26
+joint
+train
+	time: 	593.23
+	cross ent: 	0.49
+	noise cross ent: 	184.76
+	cluster: 	1.64
+	separation: 	26.33
+	l1: 	14.10
+	coarse acc: 	94.26%
+	fine acc: 	83.70%
+epoch: 	27
+joint
+train
+	time: 	593.24
+	cross ent: 	0.48
+	noise cross ent: 	184.76
+	cluster: 	1.78
+	separation: 	25.88
+	l1: 	13.05
+	coarse acc: 	94.44%
+	fine acc: 	83.87%
+epoch: 	28
+joint
+train
+	time: 	590.66
+	cross ent: 	0.49
+	noise cross ent: 	184.76
+	cluster: 	2.01
+	separation: 	25.48
+	l1: 	12.29
+	coarse acc: 	94.50%
+	fine acc: 	84.03%
+epoch: 	29
+joint
+train
+	time: 	589.21
+	cross ent: 	0.48
+	noise cross ent: 	184.76
+	cluster: 	2.12
+	separation: 	25.06
+	l1: 	11.69
+	coarse acc: 	94.07%
+	fine acc: 	84.12%
+epoch: 	30
+joint
+train
+	time: 	591.16
+	cross ent: 	0.48
+	noise cross ent: 	184.76
+	cluster: 	2.36
+	separation: 	24.58
+	l1: 	11.39
+	coarse acc: 	94.32%
+	fine acc: 	83.89%
+	push
+	Executing push ...
+	push time: 	233.20522212982178
+valid
+	time: 	9.76
+	cross ent: 	0.50
+	noise cross ent: 	0.00
+	cluster: 	0.73
+	separation: 	28.04
+	l1: 	11.27
+	coarse acc: 	94.00%
+	fine acc: 	84.13%
+last layers
+train
+	time: 	220.60
+	cross ent: 	0.48
+	noise cross ent: 	184.80
+	cluster: 	1.43
+	separation: 	26.68
+	l1: 	13.13
+	coarse acc: 	94.45%
+	fine acc: 	83.98%
+valid
+	time: 	9.76
+	cross ent: 	0.48
+	noise cross ent: 	0.00
+	cluster: 	0.73
+	separation: 	28.04
+	l1: 	13.34
+	coarse acc: 	94.53%
+	fine acc: 	84.93%
+	new best: 84.93       old best: 84.67
+last layers
+train
+	time: 	220.89
+	cross ent: 	0.48
+	noise cross ent: 	184.78
+	cluster: 	1.47
+	separation: 	26.68
+	l1: 	12.94
+	coarse acc: 	94.22%
+	fine acc: 	83.45%
+valid
+	time: 	9.78
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.73
+	separation: 	28.04
+	l1: 	13.15
+	coarse acc: 	94.27%
+	fine acc: 	84.53%
+epoch: 	31
+joint
+train
+	time: 	591.33
+	cross ent: 	0.47
+	noise cross ent: 	184.76
+	cluster: 	1.60
+	separation: 	26.30
+	l1: 	12.35
+	coarse acc: 	94.32%
+	fine acc: 	84.06%
+epoch: 	32
+joint
+train
+	time: 	591.16
+	cross ent: 	0.48
+	noise cross ent: 	184.76
+	cluster: 	1.81
+	separation: 	25.81
+	l1: 	11.68
+	coarse acc: 	94.38%
+	fine acc: 	83.74%
+epoch: 	33
+joint
+train
+	time: 	591.16
+	cross ent: 	0.47
+	noise cross ent: 	184.76
+	cluster: 	1.98
+	separation: 	25.31
+	l1: 	11.43
+	coarse acc: 	94.51%
+	fine acc: 	84.20%
+epoch: 	34
+joint
+train
+	time: 	591.24
+	cross ent: 	0.47
+	noise cross ent: 	184.76
+	cluster: 	2.12
+	separation: 	24.94
+	l1: 	11.29
+	coarse acc: 	94.58%
+	fine acc: 	84.31%
+epoch: 	35
+joint
+train
+	time: 	591.36
+	cross ent: 	0.47
+	noise cross ent: 	184.76
+	cluster: 	2.36
+	separation: 	24.45
+	l1: 	11.24
+	coarse acc: 	94.43%
+	fine acc: 	84.29%
+	push
+	Executing push ...
+	push time: 	235.44013714790344
+valid
+	time: 	9.85
+	cross ent: 	0.50
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	11.10
+	coarse acc: 	94.80%
+	fine acc: 	84.80%
+last layers
+train
+	time: 	222.34
+	cross ent: 	0.47
+	noise cross ent: 	184.79
+	cluster: 	1.50
+	separation: 	26.55
+	l1: 	12.45
+	coarse acc: 	94.74%
+	fine acc: 	84.34%
+valid
+	time: 	9.80
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	12.14
+	coarse acc: 	94.80%
+	fine acc: 	84.93%
+last layers
+train
+	time: 	220.34
+	cross ent: 	0.47
+	noise cross ent: 	184.78
+	cluster: 	1.51
+	separation: 	26.57
+	l1: 	12.51
+	coarse acc: 	94.46%
+	fine acc: 	84.11%
+valid
+	time: 	9.82
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	12.64
+	coarse acc: 	94.53%
+	fine acc: 	85.07%
+	new best: 85.07       old best: 84.93
+epoch: 	36
+joint
+train
+	time: 	588.85
+	cross ent: 	0.48
+	noise cross ent: 	184.76
+	cluster: 	1.73
+	separation: 	26.13
+	l1: 	11.54
+	coarse acc: 	94.53%
+	fine acc: 	84.11%
+epoch: 	37
+joint
+train
+	time: 	590.83
+	cross ent: 	0.47
+	noise cross ent: 	184.76
+	cluster: 	1.89
+	separation: 	25.68
+	l1: 	10.94
+	coarse acc: 	94.48%
+	fine acc: 	84.35%
+epoch: 	38
+joint
+train
+	time: 	591.03
+	cross ent: 	0.48
+	noise cross ent: 	184.76
+	cluster: 	2.06
+	separation: 	25.19
+	l1: 	10.76
+	coarse acc: 	94.14%
+	fine acc: 	84.38%
+epoch: 	39
+joint
+train
+	time: 	590.77
+	cross ent: 	0.46
+	noise cross ent: 	184.76
+	cluster: 	2.21
+	separation: 	24.77
+	l1: 	10.70
+	coarse acc: 	94.71%
+	fine acc: 	84.68%
+lowered lrs by factor of 10
+epoch: 	40
+joint
+train
+	time: 	590.41
+	cross ent: 	0.47
+	noise cross ent: 	184.76
+	cluster: 	2.36
+	separation: 	24.46
+	l1: 	10.59
+	coarse acc: 	94.66%
+	fine acc: 	84.74%
+	push
+	Executing push ...
+	push time: 	232.71951293945312
+valid
+	time: 	9.82
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.79
+	separation: 	27.98
+	l1: 	10.51
+	coarse acc: 	94.00%
+	fine acc: 	84.80%
+last layers
+train
+	time: 	220.38
+	cross ent: 	0.46
+	noise cross ent: 	184.78
+	cluster: 	1.46
+	separation: 	26.58
+	l1: 	11.76
+	coarse acc: 	94.58%
+	fine acc: 	84.60%
+valid
+	time: 	9.83
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.79
+	separation: 	27.98
+	l1: 	12.05
+	coarse acc: 	94.27%
+	fine acc: 	85.07%
+last layers
+train
+	time: 	222.20
+	cross ent: 	0.46
+	noise cross ent: 	184.78
+	cluster: 	1.50
+	separation: 	26.58
+	l1: 	11.68
+	coarse acc: 	94.32%
+	fine acc: 	84.77%
+valid
+	time: 	9.78
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.79
+	separation: 	27.98
+	l1: 	11.49
+	coarse acc: 	94.13%
+	fine acc: 	84.80%
+epoch: 	41
+joint
+train
+	time: 	591.18
+	cross ent: 	0.47
+	noise cross ent: 	184.76
+	cluster: 	1.53
+	separation: 	26.53
+	l1: 	11.27
+	coarse acc: 	94.25%
+	fine acc: 	84.21%
+epoch: 	42
+joint
+train
+	time: 	590.92
+	cross ent: 	0.47
+	noise cross ent: 	184.76
+	cluster: 	1.57
+	separation: 	26.45
+	l1: 	11.02
+	coarse acc: 	94.45%
+	fine acc: 	84.36%
+epoch: 	43
+joint
+train
+	time: 	591.07
+	cross ent: 	0.46
+	noise cross ent: 	184.76
+	cluster: 	1.60
+	separation: 	26.35
+	l1: 	10.83
+	coarse acc: 	94.75%
+	fine acc: 	84.51%
+epoch: 	44
+joint
+train
+	time: 	590.70
+	cross ent: 	0.46
+	noise cross ent: 	184.76
+	cluster: 	1.63
+	separation: 	26.28
+	l1: 	10.68
+	coarse acc: 	94.74%
+	fine acc: 	84.53%
+	push
+	Executing push ...
+	push time: 	235.4282205104828
+valid
+	time: 	9.85
+	cross ent: 	0.48
+	noise cross ent: 	0.00
+	cluster: 	0.81
+	separation: 	27.96
+	l1: 	10.62
+	coarse acc: 	94.00%
+	fine acc: 	84.53%
+last layers
+train
+	time: 	222.21
+	cross ent: 	0.47
+	noise cross ent: 	184.77
+	cluster: 	1.52
+	separation: 	26.56
+	l1: 	11.46
+	coarse acc: 	94.48%
+	fine acc: 	84.32%
+valid
+	time: 	9.79
+	cross ent: 	0.48
+	noise cross ent: 	0.00
+	cluster: 	0.81
+	separation: 	27.96
+	l1: 	11.63
+	coarse acc: 	94.40%
+	fine acc: 	84.40%
+last layers
+train
+	time: 	221.95
+	cross ent: 	0.46
+	noise cross ent: 	184.78
+	cluster: 	1.54
+	separation: 	26.53
+	l1: 	11.50
+	coarse acc: 	94.78%
+	fine acc: 	84.76%
+valid
+	time: 	9.81
+	cross ent: 	0.48
+	noise cross ent: 	0.00
+	cluster: 	0.81
+	separation: 	27.96
+	l1: 	11.30
+	coarse acc: 	94.40%
+	fine acc: 	84.27%
+valid
+	time: 	9.74
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	12.64
+	coarse acc: 	94.53%
+	fine acc: 	85.07%
+	new best: 85.07       old best: 0.00
+	push
+	Executing push ...
+	push time: 	232.18584632873535
+optimize last layer
+epoch: 	0
+last layers
+train
+	time: 	222.26
+	cross ent: 	0.47
+	noise cross ent: 	184.78
+	cluster: 	1.51
+	separation: 	26.55
+	l1: 	12.27
+	coarse acc: 	94.59%
+	fine acc: 	84.10%
+valid
+	time: 	9.79
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	11.66
+	coarse acc: 	94.80%
+	fine acc: 	84.80%
+epoch: 	1
+last layers
+train
+	time: 	221.74
+	cross ent: 	0.48
+	noise cross ent: 	184.78
+	cluster: 	1.52
+	separation: 	26.55
+	l1: 	11.96
+	coarse acc: 	94.28%
+	fine acc: 	84.10%
+valid
+	time: 	9.77
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	11.93
+	coarse acc: 	94.67%
+	fine acc: 	84.80%
+epoch: 	2
+last layers
+train
+	time: 	222.13
+	cross ent: 	0.47
+	noise cross ent: 	184.78
+	cluster: 	1.53
+	separation: 	26.55
+	l1: 	11.61
+	coarse acc: 	94.55%
+	fine acc: 	84.02%
+valid
+	time: 	9.79
+	cross ent: 	0.49
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	11.66
+	coarse acc: 	94.80%
+	fine acc: 	84.67%
+epoch: 	3
+last layers
+train
+	time: 	220.34
+	cross ent: 	0.47
+	noise cross ent: 	184.78
+	cluster: 	1.51
+	separation: 	26.56
+	l1: 	11.84
+	coarse acc: 	94.38%
+	fine acc: 	84.23%
+valid
+	time: 	9.83
+	cross ent: 	0.48
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	12.26
+	coarse acc: 	94.53%
+	fine acc: 	84.67%
+epoch: 	4
+last layers
+train
+	time: 	220.32
+	cross ent: 	0.48
+	noise cross ent: 	184.78
+	cluster: 	1.51
+	separation: 	26.54
+	l1: 	11.98
+	coarse acc: 	94.22%
+	fine acc: 	83.86%
+valid
+	time: 	9.78
+	cross ent: 	0.48
+	noise cross ent: 	0.00
+	cluster: 	0.78
+	separation: 	27.98
+	l1: 	12.58
+	coarse acc: 	94.67%
+	fine acc: 	84.67%
+
+
+up_to_protos acc: 82.27
+occured at epoch: 04
+joint opt acc: 85.07
+occured at epoch: 35
+last only opt acc: 85.07
+occured at epoch: 35
+
+total running time: 10.667 hours
