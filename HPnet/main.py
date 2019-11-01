@@ -29,7 +29,7 @@ if __name__ == "__main__":
 							help = "Path for pretrained base model")
 	parser.add_argument('--resume_path', default=None, type=str,
 							help = "Path for model to resume training with")
-	parser.add_argument('--save_path', default="/usr/xtmp/peterhas/saved_models/", type=str)
+	parser.add_argument('--save_path', default="saved_models/", type=str)
 	parser.add_argument('--batch_size', default=25, type=int)
 	parser.add_argument('--optim', default='adam', type=str)
 	parser.add_argument('--CEDA', default=True, type=bool, help = "CEDA data augmentation")
